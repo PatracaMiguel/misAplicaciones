@@ -1,0 +1,1 @@
+// Aqui escribo el codigo para configurar la ventana (vista) 
