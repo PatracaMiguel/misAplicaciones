@@ -15,3 +15,15 @@ function crearVenatana(){
 }
 
 app.whenReady().then(crearVenatana);
+
+app.on('window-all-closed', function () {
+    if (process.platform == 'darwin') {
+        app.quit();
+    }
+});
+
+app.on('activate', function () {
+    if (BrowserWindow.getAllWindows().legth === 0) {
+        crearVenatana();
+    }
+});
