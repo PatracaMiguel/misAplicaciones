@@ -1,0 +1,29 @@
+{
+  "name": "marcadores",
+  "version": "1.0.0",
+  "description": "Aplicación para la gestion de marcadores ",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PatracaMiguel/misAplicaciones.git"
+  },
+  "keywords": [
+    "Electron",
+    "Escritorio",
+    "Aplicacion",
+    "Multiplataforma"
+  ],
+  "author": "Miguel Angel Patraca Lagunes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PatracaMiguel/misAplicaciones/issues"
+  },
+  "homepage": "https://github.com/PatracaMiguel/misAplicaciones#readme",
+  "dependencies": {
+    "electron": "^35.1.2"
+  }
+}
