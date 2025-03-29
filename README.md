@@ -18,6 +18,9 @@ npm install electron-builder
 npm install electron-packager
 npm install electron-rebuild
 
+## Para instalar electron 
+Utilizamos el comando npm install electron --save -dev
+
 ## Ejecución de la aplicación
 
 lanzamiento en scritps - start : electron .
